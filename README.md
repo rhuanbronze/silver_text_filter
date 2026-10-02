@@ -60,13 +60,6 @@ local de desenvolvimento pode exigir um certificado HTTPS; ele não é necessár
 para importar o `.pbiviz` compilado.
 
 
-## Origem
-
-- Código base: Microsoft PowerBI-visuals-TextFilter, versão 2.2.9.0, branch `main`.
-- Referência: sample `.pbix` 2.2.9.0 enviado pelo usuário; lido sem alteração.
-- Licença e atribuição Microsoft preservadas em `LICENSE` e nos fontes.
-- Identidade, busca automática, tratamento dos eventos e testes adaptados neste projeto.
-
 Documentação Microsoft: [API de filtros](https://learn.microsoft.com/en-us/power-bi/developer/visuals/filter-api),
 [empacotamento](https://learn.microsoft.com/en-us/power-bi/developer/visuals/package-visual)
 e [importação de visuais](https://learn.microsoft.com/en-us/power-bi/developer/visuals/import-visual).
