@@ -1,0 +1,75 @@
+.text-filter-search {
+    position: relative;
+    min-width: 92px;
+    width: 100%;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.text-filter-search button,
+.text-filter-search input {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.text-filter-search input[type="text"] {
+    float: left;
+    box-sizing: border-box;
+    height: 100%;
+    line-height: normal;
+    padding: 7px 10px;
+    border: 1px solid rgba(0, 0, 0, .6);
+    border-radius: 0;
+    outline: 0;
+    background-color: #fff;
+    appearance: none;
+}
+
+.text-filter-search .clear-button {
+    border: 0;
+    padding: 0;
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.text-filter-search .clear-button:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNzU3NTc1IiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik04MzIgMTQwOGwzMzYtMzg0aC03NjhsLTMzNiAzODRoNzY4em0xMDEzLTEwNzdxMTUgMzQgOS41IDcxLjV0LTMwLjUgNjUuNWwtODk2IDEwMjRxLTM4IDQ0LTk2IDQ0aC03NjhxLTM4IDAtNjkuNS0yMC41dC00Ny41LTU0LjVxLTE1LTM0LTkuNS03MS41dDMwLjUtNjUuNWw4OTYtMTAyNHEzOC00NCA5Ni00NGg3NjhxMzggMCA2OS41IDIwLjV0NDcuNSA1NC41eiIvPjwvc3ZnPg==');
+}
+
+.text-filter-search .clear-button:hover {
+    background-color: lightblue;
+}
+
+.text-filter-search :disabled {
+    opacity: .6;
+    cursor: default;
+}
+
+.text-filter-search .x-screen-reader {
+    position: absolute !important;
+    overflow: hidden !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    width: 1px !important;
+    height: 1px !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.accessibility-compliant::placeholder {
+    color: #757575;
+    opacity: 1;
+}
+
+.border-on-focus:focus {
+    border: solid 2px black !important;
+}

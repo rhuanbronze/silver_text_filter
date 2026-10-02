@@ -1,0 +1,26 @@
+{
+  "visual": {
+    "name": "silverTextFilter",
+    "displayName": "Silver Text Filter",
+    "guid": "silverTextFilterD0830F5D8E244FEDA7CC35F570AA0B31",
+    "visualClassName": "Visual",
+    "version": "1.0.0.1",
+    "description": "Filters a text field automatically 300 ms after typing or pasting. Local adaptation of Microsoft's MIT-licensed Text Filter.",
+    "supportUrl": "https://community.powerbi.com",
+    "gitHubUrl": ""
+  },
+  "output": "dist/silverTextFilter.pbiviz",
+  "apiVersion": "5.3.0",
+  "author": {
+    "name": "Silver Text Filter",
+    "email": "local-build@example.invalid"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}
